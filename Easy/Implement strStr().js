@@ -14,5 +14,17 @@
  * @return {number}
  */
 var strStr = function (haystack, needle) {
-
+  var i = 0,j,len1 = haystack.length,len2 = needle.length;
+  for (i; i <= len1 - len2 ; i++) {
+    for(j = 0; j < len2; j++) {
+      if (haystack.charAt(i + j) !== needle.charAt(j)) {
+        break;
+      }
+    }
+    if (j === len2) {
+      return i;
+    }
+  }
+  return -1;
 };
+strStr("mississippi", "issipi");  
