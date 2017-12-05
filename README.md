@@ -25,10 +25,15 @@
 一个算法所需的存储空间用f(n)表示。 `S(n) = O(f(n))`
 
 放几张图片see see<br>
+
 ![](https://github.com/fengye9729/MarkdownPhotos/raw/master/suanfa/complex.png)
+
+![](https://github.com/fengye9729/MarkdownPhotos/raw/master/suanfa/scale.png)
 
 ![](https://github.com/fengye9729/MarkdownPhotos/raw/master/suanfa/big-o.png)
 
 学习参考： <br>
 [What is a plain English explanation of “Big O” notation?](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation)<br>
+[算法复杂度分析概要](https://www.61mon.com/index.php/archives/176/)<br>
+[维基百科: 大O符号](https://zh.wikipedia.org/wiki/%E5%A4%A7O%E7%AC%A6%E5%8F%B7)
 [时间复杂度和空间复杂度详解](http://blog.csdn.net/booirror/article/details/7707551/)
