@@ -12,6 +12,7 @@ return [0, 1].
 link: https://leetcode.com/problems/two-sum/description/
 */
 
+// no thought for mistake
 
 /**
  * @param {number[]} nums
@@ -29,3 +30,17 @@ var twoSum = function (nums, target) {
     }
     return arr;
 };
+
+var twoSum2 = function (nums, target) {
+    var list = nums.slice().sort((a, b) => a - b);
+    var small = 0, large = nums.length - 1;
+    while (small <= large) {
+        if (list[small] + list[large] === target) break;
+        else if (list[small] + list[large] < target) {
+            small ++;
+        } else {
+            large --;
+        }
+    }
+    return [nums.indexOf(list[small]),nums.indexOf(list[large])];
+}
