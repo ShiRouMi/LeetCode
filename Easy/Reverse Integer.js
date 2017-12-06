@@ -26,3 +26,19 @@ var reverse = function (x) {
         return x > 0 ? result : -result;
     }
 }; 
+
+// Does it really makes sense to emulate overflow in JavaScript?  
+var reverse2 = function (x) {
+    var result = 0, newResult = 0;
+    var maxInteger = Math.pow(2, 31) - 1, minInteger = Math.pow(-2, 31) + 1; //
+    while (x != 0 ) {
+        result = x % 10;
+        newResult = newResult * 10 + result;
+        x = parseInt(x / 10);
+    }
+    if (newResult > maxInteger || newResult < minInteger) { //
+        return 0;
+    }                         
+    return newResult;
+}
+reverse2(120);
