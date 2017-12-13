@@ -5,6 +5,10 @@
 ## keep coding
 # keep coding
 
+### 牛顿法
+[如何通俗易懂地讲解牛顿迭代法？](http://www.matongxue.com/madocs/205.html#/madoc)
+[求牛顿开方法的算法及其原理，此算法能开任意次方吗?](https://www.guokr.com/question/461510/)
+
 ### 理解时间复杂度和空间复杂度 
 
 * 时间复杂度
