@@ -1,5 +1,6 @@
 # LeetCode
-
+2019-3-27 update:
+因为leetcode（领扣）中国的出现，所以题目链接到中文地址了。
 2019-3-5 update:
 背包问题
 - [0-1背包问题—动态规划求解](https://www.cnblogs.com/Anker/archive/2013/05/04/3059070.html)
