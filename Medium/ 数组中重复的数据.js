@@ -28,3 +28,21 @@ var findDuplicates = function(nums) {
     return result
 };
 // 296 ms	54.2 MB
+
+
+// 负数标记法
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var findDuplicates = function (nums) {
+    var len = nums.length, result = []
+    for (var i = 0; i < len; ++i) {
+        var idx = Math.abs(nums[i]) - 1
+        if (nums[idx] < 0) {
+            result.push(idx + 1)
+        }
+        nums[idx] = -1 * nums[idx]
+    }
+    return result
+};
