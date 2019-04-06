@@ -22,7 +22,8 @@
 | 70 | 	[	爬楼梯 ](https://leetcode-cn.com/problems/climbing-stairs/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/Climbing%20Staris.js) | 简单 |
 | 88 | 	[	合并两个有序数组 ](https://leetcode-cn.com/problems/merge-sorted-array/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.js) | 简单 |
 | 121 | [ 买卖股票的最佳时机 ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA.js) | 简单 |
-| 125 | [ 验证回文串 ](https://leetcode-cn.com/problems/valid-palindrome/)  | [JS]() | 简单 |
+| 125 | [ 验证回文串 ](https://leetcode-cn.com/problems/valid-palindrome/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/76c70463ae3998bda64c3a371e7b41e7db6877b6/Easy/valid-palindrome.js) | 简单 |
+| 136 | [ 只出现一次的数字 ](https://leetcode-cn.com/problems/single-number/submissions/)  | [JS]() | 简单 |
 | 169 | [ 求众数  ](https://leetcode-cn.com/problems/majority-element/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E6%B1%82%E4%BC%97%E6%95%B0.js) | 简单 |
 | 189 | [ 旋转数组  ](https://leetcode-cn.com/problems/rotate-array/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84.js) | 简单 |
 | 217 | [ 存在重复元素  ](https://leetcode-cn.com/problems/contains-duplicate/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0.js) | 简单 |
@@ -33,10 +34,10 @@
 | 350 | [ 两个数组的交集 II ](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86%20II.js) | 简单 |
 | 414 | [ 第三大的数 ](https://leetcode-cn.com/problems/third-maximum-number/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E7%AC%AC%E4%B8%89%E5%A4%A7%E7%9A%84%E6%95%B0.js) | 简单 |
 | 442 | [ 数组中重复的数据 ](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Medium/%20%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E6%8D%AE.js) | 中等 |
-| 448 | [ 找到所有数组中消失的数字 ](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/)  | [JS]() | 简单 |
+| 448 | [ 找到所有数组中消失的数字 ](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/HEAD/Easy/find-all-numbers-disappeared-in-an-array.js) | 简单 |
 | 485 | [ 最大连续1的个数 ](https://leetcode-cn.com/problems/max-consecutive-ones/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD1%E7%9A%84%E4%B8%AA%E6%95%B0.js) | 简单 |
 | 509 | [ 斐波那契数 ](https://leetcode-cn.com/problems/fibonacci-number/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0.js) | 简单 |
-| 643 | [ 子数组最大平均数 I ](https://leetcode-cn.com/problems/maximum-average-subarray-i/)  | [JS]() | 简单 |
+| 643 | [ 子数组最大平均数 I ](https://leetcode-cn.com/problems/maximum-average-subarray-i/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/HEAD/Easy/maximum-average-subarray-i.js) | 简单 |
 ---
 
 2019-3-27 update:
