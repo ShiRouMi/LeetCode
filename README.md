@@ -20,10 +20,12 @@
 | 67 | 	[二进制求和](https://leetcode-cn.com/problems/add-binary/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/Add%20Binary.js) | 简单 |
 | 69 | 	[	x 的平方根](https://leetcode-cn.com/problems/sqrtx/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/Sqrt(x).js) | 简单 |
 | 70 | 	[	爬楼梯 ](https://leetcode-cn.com/problems/climbing-stairs/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/Climbing%20Staris.js) | 简单 |
+| 83 | 	[	Remove Duplicates from Sorted List ](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)  | [JS]() | 简单 |
 | 88 | 	[	合并两个有序数组 ](https://leetcode-cn.com/problems/merge-sorted-array/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.js) | 简单 |
+| 112 | 	[	Path Sum ](https://leetcode-cn.com/problems/path-sum/)  | [JS]() | 简单 |
 | 121 | [ 买卖股票的最佳时机 ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA.js) | 简单 |
 | 125 | [ 验证回文串 ](https://leetcode-cn.com/problems/valid-palindrome/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/76c70463ae3998bda64c3a371e7b41e7db6877b6/Easy/valid-palindrome.js) | 简单 |
-| 136 | [ 只出现一次的数字 ](https://leetcode-cn.com/problems/single-number/submissions/)  | [JS]() | 简单 |
+| 136 | [ 只出现一次的数字 ](https://leetcode-cn.com/problems/single-number/submissions/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/HEAD/Easy/single-number.js) | 简单 |
 | 169 | [ 求众数  ](https://leetcode-cn.com/problems/majority-element/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E6%B1%82%E4%BC%97%E6%95%B0.js) | 简单 |
 | 189 | [ 旋转数组  ](https://leetcode-cn.com/problems/rotate-array/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84.js) | 简单 |
 | 217 | [ 存在重复元素  ](https://leetcode-cn.com/problems/contains-duplicate/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0.js) | 简单 |
