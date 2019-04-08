@@ -20,9 +20,9 @@
 | 67 | 	[二进制求和](https://leetcode-cn.com/problems/add-binary/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/Add%20Binary.js) | 简单 |
 | 69 | 	[	x 的平方根](https://leetcode-cn.com/problems/sqrtx/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/Sqrt(x).js) | 简单 |
 | 70 | 	[	爬楼梯 ](https://leetcode-cn.com/problems/climbing-stairs/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/Climbing%20Staris.js) | 简单 |
-| 83 | 	[	Remove Duplicates from Sorted List ](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)  | [JS]() | 简单 |
+| 83 | 	[	Remove Duplicates from Sorted List ](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/829d92eabc04732e4795fc8b10444e5d5f237773/Easy/remove-duplicates-from-sorted-list.js) | 简单 |
 | 88 | 	[	合并两个有序数组 ](https://leetcode-cn.com/problems/merge-sorted-array/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.js) | 简单 |
-| 112 | 	[	Path Sum ](https://leetcode-cn.com/problems/path-sum/)  | [JS]() | 简单 |
+| 112 | 	[	Path Sum ](https://leetcode-cn.com/problems/path-sum/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/829d92eabc04732e4795fc8b10444e5d5f237773/Easy/path-sum.js) | 简单 |
 | 121 | [ 买卖股票的最佳时机 ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA.js) | 简单 |
 | 125 | [ 验证回文串 ](https://leetcode-cn.com/problems/valid-palindrome/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/76c70463ae3998bda64c3a371e7b41e7db6877b6/Easy/valid-palindrome.js) | 简单 |
 | 136 | [ 只出现一次的数字 ](https://leetcode-cn.com/problems/single-number/submissions/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/HEAD/Easy/single-number.js) | 简单 |
@@ -40,6 +40,7 @@
 | 485 | [ 最大连续1的个数 ](https://leetcode-cn.com/problems/max-consecutive-ones/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD1%E7%9A%84%E4%B8%AA%E6%95%B0.js) | 简单 |
 | 509 | [ 斐波那契数 ](https://leetcode-cn.com/problems/fibonacci-number/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0.js) | 简单 |
 | 643 | [ 子数组最大平均数 I ](https://leetcode-cn.com/problems/maximum-average-subarray-i/)  | [JS](https://github.com/ShiRouMi/LeetCode/blob/HEAD/Easy/maximum-average-subarray-i.js) | 简单 |
+| 976 | [ Largest Perimeter Triangle ](https://leetcode-cn.com/problems/largest-perimeter-triangle/comments/)  | [JS]() | 简单 |
 ---
 
 2019-3-27 update:
