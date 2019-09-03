@@ -1,5 +1,8 @@
 # LeetCode
 
+做题详情：https://leetcode-cn.com/u/shiroumi/
+之后就不同步到 GitHub 了， 2019-9-3
+
 | #      | title     | Solution     | Difficulty|
 | ---------- | :-----------:  | :-----------: | :-----------: |
 | 1     | [两数之和](https://leetcode-cn.com/problems/two-sum/)     |  [JS](https://github.com/ShiRouMi/LeetCode/blob/01c3e6152e2bb923b3ad8e249dfc5a7e21159e93/Easy/Two%20Sum.js)    | 简单
