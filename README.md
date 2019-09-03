@@ -1,7 +1,60 @@
 # LeetCode
 
-做题详情：https://leetcode-cn.com/u/shiroumi/
-之后就不同步到 GitHub 了， 2019-9-3
+做题详情：https://leetcode-cn.com/u/shiroumi/, 之后就不同步到 GitHub 了， 2019-9-3
+
+## 时间复杂度
+时间频度：一个算法中的`语句执行次数`。`T(n)` n为问题的规模
+
+时间复杂度: 为了估算算法需要的运行时间 和 简化算法分析<br>
+`T(n) = O(f(n))` 辅助函数f(n)，使得n趋近于无穷大时候，T(n)/f(n)的极限值为不等于零的常数，称f(n)是T(n)的同数量级函数<br>
+
+常见的时间复杂度有：常数阶`O(1)`,对数阶O(log2<sup>n</sup>),线性阶`O(n)`,线性对数阶O(nlog2<sup>n</sup>),平方阶O(n<sup>2</sup>), 立方阶O(n<sup>3</sup>),...， k次方阶O(n<sup>k</sup>),指数阶O(2<sup>n</sup>)
+
+时间复杂度按优劣排差不多集中在：
+O(1), O(log n), O(n), O(n log n), O(n2), O(nk), O(2n)
+
+## 查找算法
+### 二分查找法
+主要解决「在一堆数据中找出指定的数」
+
+前提条件：数据存储在数组中，是有序排列的。二分查找可以使用「递归」方式或者「非递归」方式
+
+使用二分查找法要注意边界情况，有以下查询情况
+- 给定一个有序的数组，查找value第一次出现的下标，不存在返回-1
+- 给定一个有序的数组，查找最接近value且大于value的数的下标（如果该数存在多个，返回第一个下标），不存在返回-1。
+
+```js
+// 递归方式
+function bsearch(array, left, right, value) {
+  if(left > right) return 
+  mid = parseInt((left + right) / 2)
+  if(array[mid] > value) {
+    return bsearch(array, left, mid -1, value)
+  } else if(array[mid] < value) {
+    return bsearch(array, mid + 1, right, value)
+  }
+
+  return mid
+}
+
+// 非递归方式
+function BinarySearch(array, value) {
+	let len = array.length,
+		left = 0,
+		right = len -1
+		while(left < right) {
+			let middle = left + ((right - left) >> 1) // 防止溢出，移位也更高效
+			if(array[middle] > value) {
+				right = middle -1
+			} else if(array[middle] < value) {
+				left = middle + 1
+			} else {
+				return middle
+			}
+		}
+		return -1
+}
+```
 
 | #      | title     | Solution     | Difficulty|
 | ---------- | :-----------:  | :-----------: | :-----------: |
@@ -61,13 +114,6 @@
 ### 理解时间复杂度和空间复杂度 
 
 * 时间复杂度
-
-时间频度：一个算法中的`语句执行次数`。`T(n)` n为问题的规模
-
-时间复杂度: 为了估算算法需要的运行时间 和 简化算法分析<br>
-`T(n) = O(f(n))` 辅助函数f(n)，使得n趋近于无穷大时候，T(n)/f(n)的极限值为不等于零的常数，称f(n)是T(n)的同数量级函数<br>
-
-常见的时间复杂度有：常数阶`O(1)`,对数阶O(log2<sup>n</sup>),线性阶`O(n)`,线性对数阶O(nlog2<sup>n</sup>),平方阶O(n<sup>2</sup>), 立方阶O(n<sup>3</sup>),...， k次方阶O(n<sup>k</sup>),指数阶O(2<sup>n</sup>)
 
 * 空间复杂度
 
