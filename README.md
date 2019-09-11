@@ -69,17 +69,6 @@ function BinarySearch(array, value) {
 
 [https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#>>_(有符号右移)](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#%3E%3E_(%E6%9C%89%E7%AC%A6%E5%8F%B7%E5%8F%B3%E7%A7%BB))
 
-|  运算符   | 用法  | 描述 |
-|  ----  | ----  | ----  |
-| 按位与  | a & b | 对于每一个比特位，只有两个操作数相应的比特位都是1时，结果才为1，否则为0。 |
-| 按位或（OR）  | a | b | 对于每一个比特位，当两个操作数相应的比特位至少有一个1时，结果为1，否则为0。|
-| 按位异或（XOR）  | a ^ b | 对于每一个比特位，当两个操作数相应的比特位有且只有一个1时，结果为1，否则为0。|
-| 按位非（NOT）  | ~ a | 反转操作数的比特位，即0变成1，1变成0。。|
-| 左移（Left shift）  | a << b | 将 a 的二进制形式向左移 b (< 32) 比特位，右边用0填充。|
-| 左移（Left shift）  | a << b | 将 a 的二进制形式向左移 b (< 32) 比特位，右边用0填充。|
-| 有符号右移  | a >> b | 将 a 的二进制表示向右移 b (< 32) 位，丢弃被移出的位。|
-| 无符号右移  | a >>> b | 将 a 的二进制表示向右移 b (< 32) 位，丢弃被移出的位，并使用 0 在左侧填充。|
-
 ### 尾递归
 函数中所有递归形式的调用都出现在函数的末尾，即递归函数是尾递归的。当递归调用是整个函数体中最后执行的语句且它的返回值不属于表达式的一部分时，这个递归调用就是尾递归。
 [尾调用优化](http://www.ruanyifeng.com/blog/2015/04/tail-call.html)
