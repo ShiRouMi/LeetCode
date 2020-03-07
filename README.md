@@ -1,13 +1,8 @@
 # LeetCode
 
-## algorithm
-[参考link --- 数据结构和算法必知必会的50个代码实现](https://github.com/wangzheng0822/algo)
-
-------
-
 做题详情：https://leetcode-cn.com/u/shiroumi/
 
-### 概念汇总
+### 目录
 - 时间复杂度&空间复杂度
 - 查找算法
   - 二分查找
@@ -103,3 +98,7 @@ function BinarySearch(array, value) {
 [算法复杂度分析概要](https://www.61mon.com/index.php/archives/176/)<br>
 [维基百科: 大O符号](https://zh.wikipedia.org/wiki/%E5%A4%A7O%E7%AC%A6%E5%8F%B7)
 [时间复杂度和空间复杂度详解](http://blog.csdn.net/booirror/article/details/7707551/)
+
+
+## 延伸链接
+[数据结构和算法必知必会的50个代码实现](https://github.com/wangzheng0822/algo)
