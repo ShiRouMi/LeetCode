@@ -75,7 +75,6 @@ function BinarySearch(array, value) {
 
 ### 背包问题
 - [0-1背包问题—动态规划求解](https://www.cnblogs.com/Anker/archive/2013/05/04/3059070.html)
-- [动态规划之背包问题（一）](http://www.hawstein.com/posts/dp-knapsack.html)
 
 ### 牛顿法
 [如何通俗易懂地讲解牛顿迭代法？](http://www.matongxue.com/madocs/205.html#/madoc)
