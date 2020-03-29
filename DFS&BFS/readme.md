@@ -1,5 +1,10 @@
 DFS & BFS
 
+### 树的 BFS 和图的 BFS
+1. tree 只有一个 root, 图有多个源点，所以首先要把多个源点先入队列
+2. tree 是有向的，不需要标志是否访问过，对于无向图，必须得标记是否访问过
+
+
 - DFS
 
 DFS deep-first-search 深度优先搜索
