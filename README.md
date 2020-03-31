@@ -63,3 +63,37 @@
 </details>
 
 
+<details>
+  <summary>取中位数</summary>
+  
+  ```js
+  let mid = (start + end) >> 1; 
+  // 即 
+  mid = Math.floor((start + end) / 2);
+  ```
+</details>
+
+<details>
+  <summary>运算符</summary>
+
+  `~` 是二进制的按位取反，`~~` 可以理解为是取整的简写
+
+  ```js
+  ~~null;      // => 0
+  ~~undefined; // => 0
+  ~~0;         // => 0
+  ~~{};        // => 0
+  ~~[];        // => 0
+  ~~(1/0);     // => 0
+  ~~false;     // => 0
+  ~~true;      // => 1
+  ~~1.2543;    // => 1
+  ~~4.9;       // => 4
+  ~~(-2.999);  // => -2
+
+  对于非数字，~~ 的结果为0，布尔的 true 是1
+  对于大于0的数，~~ 相当于是 Math.floor
+  对于小于0的数，~~ 相当于是 Math.ceil
+  ```
+</details>
+

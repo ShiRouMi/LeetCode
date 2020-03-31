@@ -23,4 +23,4 @@ function merge(left, right) {
 }
 
 
-console.log(mergeSort([1,2,3,4,2,3,6,4,7,2,5]))
+console.log(mergeSort([2, 1, 3]))
