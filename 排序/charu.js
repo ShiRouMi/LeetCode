@@ -3,14 +3,12 @@
 function insertArr(arr) {
   let len = arr.length
 
-  for(let i=1; i<len; i++) {
-     for(let j=i; j>0; j--) {
-       if(arr[j] < arr[j-1]) {
-         [arr[j], arr[j-1]] = [arr[j-1], arr[j]]
-       } else {
-         break;
-       }
-     }
+  for (var i = 1; i < arr.length; i++) {
+    let j = i;
+    while (j > 0 && arr[j] < arr[j-1]) {
+      [arr[j], arr[j-1]] = [arr[j-1], arr[j]];
+      j--;
+    }
   }
 
   return arr
