@@ -126,4 +126,58 @@ function merge(left, right) {
 
 - 快速排序
 
+1. 找基准
+2. 分区 比基准小的移到一边；比基准大的移到另一边
+3. 递归排序
 ![](../image/kuai.gif)
+
+找基准可以优化
+```js
+var quickSort = function(arr) {
+    let pivot = arr[0]
+    let left = []
+    let right = []
+
+    if (arr.length < 2) return arr
+
+    for (let i = 1; i < arr.length; i++) {
+        arr[i] < pivot ? left.push(arr[i]) : right.push(arr[i])
+    }
+
+    return quickSort(left).concat(pivot, quickSort(right))  
+};
+```
+```js
+// 快排优化
+var sortArray = function(arr) {
+    return quickSort(arr)
+};
+//quicksort
+function quickSort(arr, left = 0, right = arr.length - 1) {
+  if (left < right) {
+    let pivot = ~~((right + left)>>1)
+    let newPivot = partition(arr, pivot, left, right)
+    quickSort(arr, left, newPivot - 1)
+    quickSort(arr, newPivot + 1, right)
+  }
+  return arr
+}
+//partition
+function partition(arr, pivot, left, right) {
+  let pivotValue = arr[pivot]
+  let newPivot = left
+  swap(arr, pivot, right)
+  for (let i = left; i < right; i++) {
+    if (arr[i] < pivotValue) {
+      swap(arr, i, newPivot)
+      newPivot ++
+    }
+  }
+  swap(arr, right, newPivot)
+  return newPivot
+}
+//swap
+function swap(arr, i, j) {
+  [arr[i], arr[j]] = [arr[j], arr[i]]
+}
+```
