@@ -1,11 +1,13 @@
 /**
  * https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/
- * p,q两个指针，让p先走k步，然后p,q一起走，直到p为null
  * Definition for singly-linked list.
  * function ListNode(val) {
  *     this.val = val;
  *     this.next = null;
  * }
+ */
+/**
+ * p,q两个指针，让p先走k步，然后p,q一起走，直到p为null
  */
 /**
  * @param {ListNode} head

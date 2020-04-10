@@ -14,26 +14,3 @@ while(front < tail) {
  //...
 }
 ```
-
-```js
-// https://leetcode-cn.com/problems/middle-of-the-linked-list/
-/**
- * Definition for singly-linked list.
- * function ListNode(val) {
- *     this.val = val;
- *     this.next = null;
- * }
- */
-/**
- * @param {ListNode} head
- * @return {ListNode}
- */
-var middleNode = function(head) {
-    let fast = head, slow = head
-    while(fast && fast.next) {
-        fast = fast.next.next
-        slow = slow.next
-    }
-    return slow
-};
-```

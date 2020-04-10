@@ -12,7 +12,7 @@ var isSubsequence = function(s, t) {
           i++;
           j++
       }
-      else j++
+      else j++ // 因为 t 的长度更长
   }
-  return i === m
+  return i === m // 相等说明遍历到最后了
 };

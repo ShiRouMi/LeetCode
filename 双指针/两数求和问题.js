@@ -1,3 +1,10 @@
+// https://leetcode-cn.com/problems/two-sum/
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+
 // 第一种解决方案：先排序，双指针
 function twoSum(nums, target) {
   let a=0, b=nums.length-1
@@ -9,7 +16,7 @@ function twoSum(nums, target) {
     } else if(first + last < target) {
       a++
     } else {
-      return [a, b]
+      return [nums.indexOf(a), nums.lastIndexOf(b)] // 注意两个值相等的情况
     }
   }
 }
