@@ -39,16 +39,17 @@ function quickSort(nums, left, right) {
 }
 
 function partition (nums, left, right) {
-  let pivot = right;
-  let leftIndex = left;
+  let b = right;
+  let a = left;
   for (let i = left; i < right; i++) {
-    if (nums[i] < nums[pivot]) {
-      [nums[leftIndex], nums[i]] = [nums[i], nums[leftIndex]];
-      leftIndex++;
+    if (nums[i] < nums[b]) {
+      [nums[a], nums[i]] = [nums[i], nums[a]];
+      a++;
     }
   }
-  [nums[leftIndex], nums[pivot]] = [nums[pivot], nums[leftIndex]];
-  return leftIndex;
+  [nums[a], nums[b]] = [nums[b], nums[a]];
+  console.log(nums)
+  return a;
 }
 
-console.log(sortArray([3, 2]))
+console.log(sortArray([4, 2, 7, 1, 3, 6, 5]))
