@@ -4,37 +4,31 @@
  * @return {string}
  */
 var longestPalindrome3 = function(s) {
-  let dp = [];
-  for (let i = 0; i < s.length; i ++) {
-      dp[i] = [];
-  };
-
   let dp = Array(s.length).fill([])
-
   let max = -1;
   let str = ''
   //这样可以遍历出所有子串, 以不同子串的开头为基准, 遍历所有子串
-  for (let k = 0; k < s.length; k ++) {
-      //采用不同的间隔依次遍历
-      //这里i 是子串的开始索引, j是 子串的结束索引, k + 1其实就是 子串的长度
-      for (let i = 0; i + k < s.length ; i ++) {
-          let j = i + k;
-          if ( k == 0 ) {
-              dp[i][j] = true;
-          } else if ( k <= 2 ) {
-              if ( s[i] == s[j] ) {
-                  dp[i][j] = true;
-              } else {
-                  dp[i][j] = false;
-              }
-          } else {
-              dp[i][j] = ( dp[i + 1][j - 1] && s[i] == s[j] ) ? true : false;
-          }
-          if ( j - i > max && dp[i][j]) {
-              max = j - i;
-              str = s.substring(i, j + 1);
-          }
-      };
+  for (let a = 0; a < s.length; a ++) {
+    //采用不同的间隔依次遍历
+    //这里 b 是子串的开始索引, m 是子串的结束索引, a + 1其实就是 子串的长度
+    for (let b = 0; b + a < s.length ; b++) {
+        let m = b + a;
+        if ( a == 0 ) {
+            dp[b][m] = true;
+        } else if ( a <= 2 ) {
+            dp[b][m] = s[b] == s[m]
+        } else {
+            dp[b][m] = ( dp[b + 1][m - 1] && s[b] == s[m] ) ? true : false;
+        }
+        if ( m - b > max && dp[b][m]) {
+            max = m - b;
+            str = s.substring(b, m + 1);
+        }
+        console.log(dp)
+        console.log(str)
+    };
   };
   return str;
 }
+
+console.log(longestPalindrome3('babad'))
