@@ -30,3 +30,8 @@ var inorderTraversal = function(root) {
 
    return tree
 };
+
+// 2020-12-14
+/**
+ * 二叉搜索树的中序遍历为 递增序列
+ */
