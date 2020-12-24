@@ -23,3 +23,8 @@ var lowestCommonAncestor = function(root, p, q) {
 
   return root
 };
+
+
+/**
+ * 递归： 叶节点为终止情况，根节点为返回值
+ */
