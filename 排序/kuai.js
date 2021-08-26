@@ -39,14 +39,16 @@ function quickSort(nums, left, right) {
 }
 
 function partition (nums, left, right) {
-  let pivot = right;
+  let pivot = right; // 轴，枢
   let leftIndex = left;
   for (let i = left; i < right; i++) {
+    // 比轴小的，通过 leftIndex 与 i 两个键值，进行替换
     if (nums[i] < nums[pivot]) {
       [nums[leftIndex], nums[i]] = [nums[i], nums[leftIndex]];
       leftIndex++;
     }
   }
+  // 更新轴
   [nums[leftIndex], nums[pivot]] = [nums[pivot], nums[leftIndex]];
   return leftIndex;
 }

@@ -17,8 +17,8 @@ function ListNode(val) {
  * @return {ListNode}
  */
 var addTwoNumbers = function(l1, l2) {
-  let p1 = l1
-  let p2 = l2
+  let p1 = reverse(l1)
+  let p2 = reverse(l2)
   let carry = 0
   const dummy = new ListNode()
   let pointer = dummy
@@ -37,8 +37,20 @@ var addTwoNumbers = function(l1, l2) {
     if (p2) p2 = p2.next
     pointer = pointer.next
   }
-  return dummy.next
+  return reverse(dummy.next)
 };
+
+let reverse = (l) => {
+  let cur = l
+  let pre = null
+  while(cur) {
+    let temp = cur.next
+    cur.next = pre
+    pre = cur
+    cur = temp
+  }
+  return pre
+}
 
 let obj1 = {
   val: 2,
@@ -50,6 +62,9 @@ let obj1 = {
     }
   }
 }
+
+reverse(obj1)
+
 let obj2 = {
   val: 5,
   next: {
@@ -60,4 +75,4 @@ let obj2 = {
     }
   }
 }
-console.log(addTwoNumbers(obj1, obj2))
+// console.log(addTwoNumbers(obj1, obj2))
