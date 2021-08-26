@@ -28,16 +28,21 @@
  * @param {number} n
  * @return {string[]}
  */
-let res = []
-var generateParenthesis = function(n) {
-    generate("", n, n)
-    return res
-};
-
 var generate = function(str, left, right) {
     if(left === 0 && right === 0) {
         res.push(str)
         return 
+    }
+}
+var generateParenthesis = function (n) {
+  let res = [];
+  // cur :当前字符
+  // left：当前字符左括号
+  // right:当前字符右括号
+  const help = (cur, left, right) => {
+    if (cur.length === 2 * n) {
+      res.push(cur);
+      return; // 结束当前递归分支
     }
     if(left > 0) {
         generate((str + "("), left - 1, right)
@@ -46,5 +51,17 @@ var generate = function(str, left, right) {
         generate((str + ")"), left, right - 1)
     }
 } 
-
 console.log(generateParenthesis(1))
+
+/**
+ * 流程分析
+ * 当 generateParenthesis(2) 的时候
+ * help("", 0, 0)
+ * help("(", 1, 0)
+ * help("((", 2, 0)
+ * help("(()", 2, 1)
+ * help("(())", 2, 2)
+ * help("()", 1, 1)
+ * help("()(", 2, 1)
+ * help("()()", 2, 2)
+ */

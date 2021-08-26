@@ -12,21 +12,26 @@
  */
 var inorderTraversal = function(root) {
   let tree = []
-   if(!root) return tree
+  if(!root) return tree
 
-   let left = inorderTraversal(root.left)
-   let right = inorderTraversal(root.right)
+  let left = inorderTraversal(root.left)
+  let right = inorderTraversal(root.right)
 
 
-   for(let item of left) {
-       tree.push(item)
-   }
+  for(let item of left) {
+      tree.push(item)
+  }
 
-   tree.push(root.val)
+  tree.push(root.val)
 
-   for(let item of right) {
-       tree.push(item)
-   }
+  for(let item of right) {
+      tree.push(item)
+  }
 
-   return tree
+  return tree
 };
+
+// 2020-12-14
+/**
+ * 二叉搜索树的中序遍历为 递增序列
+ */

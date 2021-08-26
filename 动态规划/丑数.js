@@ -1,3 +1,4 @@
+// https://leetcode-cn.com/problems/chou-shu-lcof/
 /**
  * @param {number} n
  * @return {number}

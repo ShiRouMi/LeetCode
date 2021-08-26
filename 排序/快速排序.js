@@ -39,6 +39,7 @@ function quickSort(nums, left, right) {
 }
 
 function partition (nums, left, right) {
+<<<<<<< HEAD:排序/kuai.js
   let pivot = right; // 轴，枢
   let leftIndex = left;
   for (let i = left; i < right; i++) {
@@ -51,6 +52,19 @@ function partition (nums, left, right) {
   // 更新轴
   [nums[leftIndex], nums[pivot]] = [nums[pivot], nums[leftIndex]];
   return leftIndex;
+=======
+  let b = right;
+  let a = left;
+  for (let i = left; i < right; i++) {
+    if (nums[i] < nums[b]) {
+      [nums[a], nums[i]] = [nums[i], nums[a]];
+      a++;
+    }
+  }
+  [nums[a], nums[b]] = [nums[b], nums[a]];
+  console.log(nums)
+  return a;
+>>>>>>> 4a4e8b5542f23d68458d58ea3442869f69034ff3:排序/快速排序.js
 }
 
-console.log(sortArray([3, 2]))
+console.log(sortArray([4, 2, 7, 1, 3, 6, 5]))

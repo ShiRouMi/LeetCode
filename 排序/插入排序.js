@@ -3,7 +3,7 @@
 function insertArr(arr) {
   let len = arr.length
 
-  for (var i = 1; i < arr.length; i++) {
+  for (var i = 1; i < len; i++) {
     let j = i;
     while (j > 0 && arr[j] < arr[j-1]) {
       [arr[j], arr[j-1]] = [arr[j-1], arr[j]];

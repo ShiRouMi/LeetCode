@@ -17,22 +17,22 @@ function TreeNode(val) {
 }
 var postorderTraversal = function(root) {
   let tree = []
-    if(!root) return tree
+  if(!root) return tree
 
-    let left = postorderTraversal(root.left)
-    let right = postorderTraversal(root.right)
-
-
-    for(let item of left) {
-        tree.push(item)
-    }
+  let left = postorderTraversal(root.left)
+  let right = postorderTraversal(root.right)
 
 
-    for(let item of right) {
-        tree.push(item)
-    }
+  for(let item of left) {
+      tree.push(item)
+  }
 
-    tree.push(root.val)
 
-    return tree
+  for(let item of right) {
+      tree.push(item)
+  }
+
+  tree.push(root.val)
+
+  return tree
 };
